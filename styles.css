@@ -1,0 +1,472 @@
+/* styles.css */
+
+/* Reset some default styles */
+
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5295bb;
+    
+}
+.hero h2{
+    color:rgb(228, 9, 9);
+    /* width: ; */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px  ;
+    
+}
+
+
+/* Header styles */
+header {
+    background-color:  #2147b3;
+    color: #fff;
+}
+.section-1 h1{
+    color: #ffffff;
+    font-family: 'Bollu Bhai', sans-serif;
+    
+        
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+#ishi{
+    margin-top: 4%;
+    margin: 0px 10px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+ 
+/* Hero section styles */
+.hero {
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/19/10/00/school-work-851328_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+     padding: 100px 0; 
+}
+.hero h1{
+    color:#d6ff00;
+}
+.hero p{
+    color:#0dff00;
+}
+ 
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* .cta-button {
+box-shadow: 0 0 5px cyan,
+0 0 25px cyan;
+} */
+.cta-button:hover {
+box-shadow: 0 0 5px cyan,
+0 0 25px cyan, 0 0 50px cyan,
+0 0 100px cyan, 0 0 200px cyan;
+}
+ #restartBtn:hover  {
+    box-shadow: 0 0 5px rgb(197, 13, 13),
+    0 0 25px rgb(255, 94, 0), 0 0 50px rgb(255, 8, 0),
+    0 0 100px rgb(170, 13, 13), 0 0 200px rgb(219, 21, 7);
+    }
+ #search-button:hover {
+        box-shadow: 0 0 5px rgb(72, 47, 75),
+        0 0 25px rgb(80, 35, 80), 0 0 50px rgb(110, 58, 153),
+        0 0 100px rgb(188, 14, 211), 0 0 200px rgb(213, 1, 255);
+        }
+  #bong,.container h2{
+
+    /* position: relative;
+    font-size: 6em;
+    letter-spacing: 15px; */
+    color: #0e3742;
+    /* text-transform: uppercase; */
+    /* width: 100%; */
+    /* text-align: center; */
+    -webkit-box-reflect: below 1px linear-gradiant(transparent,#0004);
+     line-height: o.70em;
+     outline: none;
+     animation: animate 5s linear infinite;
+     
+}
+@keyframes animate
+  
+ {
+     0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color:#0e3742;
+       text-shadow: none;
+
+    }
+     18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+   {
+        color: #fff;
+         text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+
+    }
+
+}
+
+       
+ 
+
+
+/* Courses section styles */
+.courses {
+    padding: 40px 0;
+}
+.courses h2{
+    color:#d351e9;
+}
+
+.course-card {
+    background-color:#370a2d;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+.course-card h3{
+    color: #d8ebddeb;
+}
+.course-card p{
+    color: #5295bb;
+}
+
+.course-card img {
+    max-width: 100%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #160b0b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+ .container li a:hover {
+    color: #2d1d53;
+ }
+ body {
+    font-family: Arial, sans-serif;
+    /* background-image: url('https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg'); */
+     /* Replace with your image file */
+      /* width: 1000px;  */
+      background-size: cover;  
+    background-attachment: fixed;
+     /* Fixed background image */
+    background-position:center;
+    background-repeat: no-repeat;
+        background-color:rgb(48 106 167 / 99%); 
+        /* Fallback background color   */ 
+    
+        
+         
+}
+/* Add this CSS to style the logo */
+.logo {
+    float: left; /* Float the logo to the left */
+    margin-right: 20px; /* Add some spacing between the logo and site title */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Adjust the size of the logo if needed */
+.logo img {
+    max-height: 50px; /* Set the maximum height of the logo */
+    /* Add more styles as needed */
+    width: auto;
+    display: block;
+}
+
+/* Update the site title styles */
+header h1 {
+    margin: 0; /* Remove margin to align the title with the logo */
+}
+/* Add this CSS to style the search bar */
+.search-bar {
+    float: right; /* Float the search bar to the right */
+    margin-top: 10px;
+    margin-right: 3px 10px; /* Adjust the vertical margin as needed */
+}
+
+#search-input {
+    padding: 5px;
+    color: #2147b3;
+    border: 1px solid #f7f0f0;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 200px; /* Adjust the width as needed */
+}
+
+#search-button {
+    padding: 5px 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Add this CSS to style the contact information in the footer */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item,
+.address {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.contact-item h4,
+.address h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-item p,
+.address p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+  .contact-item{
+     padding-right: 3px;
+}
+.social-links {
+    margin-top: 20px;
+    
+  }
+  
+  .social-links a {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333; /* Adjust the color to your design */
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+
+
+
+   @media only screen and (max-width:767px)
+  {
+    
+   .contact-item,
+.address {
+    flex: 1;
+    margin-right:19px;
+}
+.contact-item h4, .address h4 {
+    font-size: 34px;
+    margin-bottom: 23px;
+}
+.contact-item p, .address p {
+    font-size: 33px;
+    margin-bottom: 17px;
+}
+#follow{
+    font-size:45px;
+}
+.search-bar {
+    float: right;
+    margin-top: -29px;
+    margin-right: 13px;
+}
+#search-input {
+    padding: 11px 42px;
+    color: #2147b3;
+    border: 1px solid #f7f0f0;
+    border-radius: 15px;
+    margin-right: 5px;
+    width: 220px;
+}
+#search-button {
+    padding: 7px 8px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#cum {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+#om{
+    font-size: 150%;
+}
+#ul{
+    font: size 115% ;
+    margin-top: 14px;
+}
+ 
+
+  
+  body {
+    font-family: Arial, sans-serif;
+      width: 1000px; 
+      background-size: cover;  
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color:rgb(48 106 167 / 99%); 
+} 
+
+
+header h1{
+    margin: 0;
+    font-size: 215%;
+}
+  
+  nav ul li {
+    display: inline;
+    margin-right: 32px;
+    font-size: 128%;
+}
+.logo {
+    float: left; 
+    margin-right: 20px;  
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 17px;
+}
+ 
+.course-card {
+    background-color:#370a2d;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 70px;
+    text-align: center;
+    border-radius: 30px;
+}
+.course-card h3{
+    color: #d8ebddeb;
+    font-size: 38px;
+}
+.course-card p{
+    color: #5295bb;
+}
+
+
+
+
+
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet-specific styles go here */
+    body {
+        font-family: Arial, sans-serif;
+          width: 1290px; 
+          background-size: cover;  
+        background-attachment: fixed;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-color:rgb(48 106 167 / 99%); 
+
+    } 
+    header h1{
+        margin: 0;
+        font-size: 215%;
+    }
+    .logo {
+        float: left; 
+        margin-right: 20px;  
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 32px;
+        font-size: 128%;
+    }
+    header h1{
+        margin: 0;
+        font-size: 215%;
+    }
+
+
+
+}
+/* @media screen and (min-width: 1024px) {
+     Your desktop-specific styles go here  
+
+    body {
+        font-family: Arial, sans-serif;
+          width: 1290px; 
+          background-size: cover;  
+        background-attachment: fixed;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-color:rgb(48 106 167 / 99%); 
+
+    } 
+    header h1{
+        margin: 0;
+        font-size: 215%;
+    }
+    .logo {
+        float: left; 
+        margin-right: 20px;  
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 32px;
+        font-size: 128%;
+    }
+    header h1{
+        margin: 0;
+        font-size: 215%;
+    }
+
+
+
+
+
+
+} */
+  
+/* Add more styles as needed */
+ 

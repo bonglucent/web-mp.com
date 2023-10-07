@@ -1,0 +1,51 @@
+/* Initially hide the social links */
+ /* Example CSS (styles.css) */
+
+/* Style the social media section */
+.social-media-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the heading */
+.social-media-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the social media links list */
+.social-media-links {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style individual social media links */
+.social-media-links li {
+    margin: 0 10px; /* Add spacing between social media logos */
+    display: inline; /* Display links horizontally */
+}
+
+/* Style the social media logos */
+.social-media-links img {
+    width: 40px; /* Adjust the size of the logos as needed */
+    height: 40px;
+    border: none; /* Remove border (if any) around the logos */
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect on hover */
+}
+
+/* Style the social media links on hover */
+.social-media-links a:hover {
+    text-decoration: none;
+}
+
+/* Scale up the logos slightly on hover */
+.social-media-links img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+    
+}
+

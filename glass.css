@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    list-style: none;
+    font-family: sans-serif;
+}
+.containering{
+    height: 100vb;
+    width: 100%;
+    position: relative;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containering::before{
+  content: '';
+  position: absolute;
+  height: 330px;
+  width: 330px;
+  border-radius:50%;
+  background: linear-gradient(#08ffe6,#fcd200);
+  transform: translate(-500px,-130px);
+
+}
+.containering::after{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+    background: linear-gradient(#fcd200,#fc002e);
+    transform: translate(490px,150px);
+  
+  }
+  .containering.ball-1
+  {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #04f504;
+    transform: translate(-250px,200px);
+    position: absolute;
+
+  }
+  .containering.ball-2
+  {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #08e2ff;
+    transform: translate(-10px,-220px);
+    position: absolute;
+    
+  }
+  .containering.ball-3
+  {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #ffc404;
+    transform: translate(150px,250px);
+    position: absolute;
+    
+  }
+  .containering .boxen{
+    height:75vh;
+    width: 70%;
+    padding: 0,20px;
+    background: rgba(255,255,255,0.1);
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10,10,10,0.25);
+
+  }
+  .containering .boxen nav{
+    height: 7%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+  }
+  /* .container .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+
+  }
+  .container .box nav ul li a{
+     font-size: 13px;
+     cursor: pointer;
+    
+  }
+  .container .box nav ul li a:hover{
+     color: #ffc404;
+   
+ }
+ .container .box nav .logo
+ {
+    font-size: 35px;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 20px;
+ } */
+ .containering .boxen .contains
+ {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40;
+    position: relative;
+    margin-top: 7%;
+    padding-left:110px;
+
+ }
+ .containering .boxen .contains .section-1
+ {
+    position: absolute;
+    margin-top:40px;
+
+
+ }
+ .containering .boxen .contains .section-1 h1
+ {
+     font-size: 45px;
+     /* padding-right:10px ; */
+
+ }
+ .containering .boxen .contains .section-1 p
+ {
+     font-size:20px ; 
+     margin-top: 5%;
+     padding-left:65px;
+     padding-right: 140px;
+
+ }
+ #mil{
+  margin: 25px 345px;
+ }
+
+
+
+
+
+
+ @media only screen and (max-width:767px)
+ {
+
+.courses h2 {
+    color: #d351e9;
+    font-size: 55px;
+}
+.course-card p {
+  color: #5295bb;
+  font-size: 37px;
+}
+.cta-button {
+  display: inline-block;
+  padding: 17px 32px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+   
+  
+.containering .boxen .contains .section-1 h1
+ {
+     font-size: 40px;
+      padding-right:9px ; 
+
+      
+      
+    }
+    .containering .boxen .contains .section-1 p
+ {
+     font-size:25px ; 
+     margin-top: 5%;
+     padding-left:65px;
+     padding-right: 140px;
+
+ }
+    .containering{
+      height: 120vb;
+      width: 100%;
+      position: relative;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+    .containering::before{
+      content: '';
+      position: absolute;
+      height: 330px;
+      width: 330px;
+      border-radius:50%;
+      background: linear-gradient(#08ffe6,#fcd200);
+      transform: translate(-460px,-130px);
+    
+    }
+    .containering::after{
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        border-radius:50%;
+        background: linear-gradient(#fcd200,#fc002e);
+        transform: translate(345px,147px);
+      
+      }
+      .containering .boxen{
+        height:90vh;
+        width: 82%;
+        padding: 0,20px;
+        background: rgba(255,255,255,0.1);
+        z-index: 10;
+        display: flex;
+        position: relative;
+        border-radius: 20px;
+        border: 2px solid rgba(255,255,255,0.7);
+        backdrop-filter: blur(25px);
+        box-shadow: -15px 17px 17px rgba(10,10,10,0.25);
+    
+      }
+      .containering .boxen .contains
+ {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40;
+    position: relative;
+    margin-top: 5%;
+    padding-left:  75px;
+
+ }
+ .course-card h3 {
+  color: #d8ebddeb;
+  font-size: 40px;
+}
+
+      #mil{
+        margin: 5px 255px;
+       }
+
+ 
+        
+                      
+ }  
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Your tablet-specific styles go here */
+
+  .containering .boxen{
+    height:65vh;
+    width: 83%;
+    padding: 0,20px;
+    background: rgba(255,255,255,0.1);
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10,10,10,0.25);
+
+  }
+
+  .containering .boxen .contains
+ {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40;
+    position: relative;
+    margin-top: -1%;
+    padding-left:100px;
+
+ }
+ .containering::before{
+  content: '';
+  position: absolute;
+  height: 330px;
+  width: 330px;
+  border-radius:50%;
+  background: linear-gradient(#08ffe6,#fcd200);
+  transform: translate(-555px,-88px);
+
+}
+.containering::after{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+    background: linear-gradient(#fcd200,#fc002e);
+    transform: translate(490px,105px);
+  
+  }
+
+} 
+
+
+
+
+
